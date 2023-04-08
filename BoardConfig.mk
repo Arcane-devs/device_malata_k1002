@@ -99,3 +99,6 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 
 # Verified boot
 BOARD_AVB_ENABLE := false
+
+# Inherit the proprietary files
+include vendor/unowhy/Y10G001S4M/BoardConfigVendor.mk

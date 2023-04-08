@@ -56,3 +56,6 @@ $(call inherit-product, build/target/product/verity.mk)
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
 PRODUCT_TARGET_VNDK_VERSION := 28
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/unowhy/Y10G001S4M/Y10G001S4M-vendor.mk)
