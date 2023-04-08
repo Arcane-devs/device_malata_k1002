@@ -6,5 +6,5 @@ git clone --depth=1 https://github.com/Arcane-devs/kernel_unowhy_mt8167.git -b a
 echo 'Completed!'
 
 	echo "Generating ${dev} Makefiles..."
-	bash ${UNIVERSAL}/setup.sh "$dev"
+	bash device/malata/k1002/setup.sh "$dev"
 done
